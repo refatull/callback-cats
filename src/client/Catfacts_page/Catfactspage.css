@@ -1,0 +1,42 @@
+.cat-breeds-container {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.catheader {
+  display: flex;
+  flex-direction: column;
+}
+
+.catheader h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 48px;
+  font-weight: bolder;
+}
+.catheader h2 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: lighter;
+}
+
+.breed-container {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.breed-container img {
+  height: 250px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.breed-info p {
+  margin: 0;
+  line-height: 1.5;
+  text-align: left;
+}

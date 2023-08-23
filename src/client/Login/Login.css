@@ -1,0 +1,193 @@
+.loginContainer {
+  /* width: 1200px; */
+  border: 3px solid black;
+  /* margin-top: 200px;
+  margin-left: 400px; */
+  border-radius: 1rem;
+  /* padding: 10px; */
+  background-color: rgb(0, 0, 0, 0.4);
+  /* padding-bottom: 60px; */
+  width: 90%;
+  margin: 10% auto;
+  padding: 2%;
+  
+}
+
+.registerContainer {
+  /* width: 1200px; */
+  border: 3px solid black;
+  /* margin-top: 100px;
+  margin-left: 400px; */
+  border-radius: 1rem;
+  /* padding: 10px; */
+  background-color: rgba(76, 125, 185, 0.4);
+  /* padding-bottom: 60px; */
+  width: 90%;
+  margin: 5% auto;
+  padding: 2%;
+}
+
+.loginTitle {
+  text-align: center;
+}
+
+.email,
+.confirmEmail,
+.password,
+.confirmPassword {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* .email {
+  width: 50%;
+  margin-left: 120px;
+}
+
+.confirmEmail {
+  width: 50%;
+  margin-left: 50px;
+} */
+
+.emailDiv p {
+  color: red;
+  font-size: small;
+  margin-left: -280px;
+}
+
+.passwordDiv p {
+  color: red;
+  font-size: small;
+  margin-left: -80px;
+}
+
+/* .password {
+  width: 50%;
+  margin-left: 85px;
+} */
+
+/* .confirmPassword {
+  width: 50%;
+  margin-left: 15px;
+} */
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: -0px;
+  gap: 30px;
+}
+
+section {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+
+.imagecontainer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 20%;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.loginCat {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0px 0px 10px rgba(126, 126, 126, 0.5);
+}
+
+.formLogin {
+  margin-top: 50px;
+  flex: 1;
+}
+
+.button-20 {
+  appearance: button;
+  background-color: rgb(70, 48, 48);
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+  border: 1px solid black;
+  border-radius: 1rem;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset,
+    rgba(46, 54, 80, 0.075) 0 1px 1px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  /* margin-top: 50px;
+  margin-left: 300px; */
+  /* padding: 0.5rem 1rem; */
+  text-align: center;
+  text-transform: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+
+  margin: 5% auto;
+  padding: 2%;
+
+}
+
+.button-20:focus:not(:focus-visible),
+.button-20:focus {
+  outline: 0;
+}
+
+.button-20:hover {
+  background-color: rgb(56, 48, 48);
+  border-color: black;
+}
+
+.button-20:focus {
+  background-color: rgb(112, 5, 5);
+  border-color: black;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset,
+    rgba(46, 54, 80, 0.075) 0 1px 1px, rgba(104, 101, 235, 0.5) 0 0 0 0.2rem;
+}
+
+.button-20:active {
+  background-color: rgb(112, 5, 5);
+  background-image: none;
+  border-color: black;
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset;
+}
+
+.button-20:active:focus {
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset,
+    rgba(104, 101, 235, 0.5) 0 0 0 0.2rem;
+}
+
+.button-20:disabled {
+  background-image: none;
+  box-shadow: none;
+  opacity: 0.65;
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .imagecontainer {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  
+  .formLogin {
+    margin-top: 0;
+  }
+}

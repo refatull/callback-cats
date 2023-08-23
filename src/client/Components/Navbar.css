@@ -1,0 +1,37 @@
+#menu-icon {
+  visibility: none;
+}
+#close-icon {
+  display: none;
+}
+/* #c-button > a:hover {
+  background-color: transparent;
+  color: white;
+} */
+
+.navheader {
+  height: 70px;
+}
+
+@media (max-width: 767px) {
+  .nav-item {
+    color: black;
+    padding: 15px 0;
+    padding-left: 20px;
+    padding-right: 60%;
+  }
+
+  .nav-item:hover {
+    border-radius: 10px;
+    background-color: red;
+    opacity: 0.57;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  }
+
+  #menu-icon {
+    display: inline-block;
+  }
+  #close-icon {
+    display: inline-block;
+  }
+}

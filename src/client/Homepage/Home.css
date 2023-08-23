@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Merriweather:wght@700;900&family=Montserrat&family=Poppins:wght@300&family=Quicksand:wght@400;700&family=Roboto:wght@100&display=swap");
+
+body {
+  background-color: #f4eee0;
+}
+
+.about-container {
+  /* margin: 0 5%; */
+  text-align: center;
+  /* Full height */
+  background-color: #f4eee0;
+  /* Center and scale the image nicely */
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about-banner {
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.mini-container > div {
+  margin-top: 5%;
+}
+
+.bottom-title {
+  display: none;
+}
+.donate-cat-img {
+  transform: rotateY(180deg);
+}
+
+@media (max-width: 800px) {
+  .mini-container {
+    display: none;
+  }
+  .home-title {
+    display: none;
+  }
+  .bottom-title {
+    display: block;
+    position: relative;
+    bottom: 200px;
+    text-align: center;
+  }
+  .middle-container {
+    position: relative;
+    bottom: 200px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .donate-cat-img {
+    display: none;
+  }
+}

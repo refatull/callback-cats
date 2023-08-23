@@ -1,0 +1,199 @@
+.main {
+  margin-left: 22%;
+}
+
+.sellTitle {
+  text-align: center;
+  align-items: center;
+  margin-left: 38%;
+  padding-bottom: 10px;
+}
+
+.sellTitle h1 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+.sellTitle img {
+  border: black;
+  border-radius: 20rem;
+  width: 60px;
+}
+
+.sellBody {
+  height: 700px;
+  width: 1000px;
+  background-color: white;
+  margin: 50px;
+  border-radius: 3rem;
+  padding-left: 60px;
+}
+
+.sellBodyTitle {
+  padding-top: 20px;
+  text-align: left;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.bodyContent {
+  flex: 1; /* Allow bodyContent to grow and occupy available space */
+  font-size: 18px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bodyContentUpload {
+  font-size: 18px;
+  /* margin-top: 20px;
+  display: flex;
+  flex-direction: column; */
+}
+
+.textfield input {
+  width: 400px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 4px;
+  outline: none;
+}
+
+.catImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.catImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.uploadImage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 500px;
+  margin-top: -630px;
+}
+
+.uploadTitle {
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.sellBtn button {
+  border: none;
+  outline: none;
+  background-color: rgb(255, 130, 130);
+  margin-top: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.sellBtn button:hover {
+  background-color: rgb(209, 48, 48);
+  color: #ffffff;
+}
+/* .midBody {
+  display: flex;
+  flex-direction: row;
+  gap: 1220px;
+}
+
+.catDescrip {
+  width: 300px;
+  height: 100px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.catImage {
+  position: absolute;
+}
+
+.bodyContent {
+ display: flex;
+  flex-direction: row;
+  gap: 20px;
+  color: grey;
+} 
+
+.bodyContent input {
+  padding-left: 5px;
+  border-radius: 0.5rem;
+}
+
+form {
+  padding-top: 50px;
+}
+
+.catName {
+  margin-left: 45px;
+  width: 210px;
+}
+
+.catAge {
+  margin-left: 60px;
+  width: 210px;
+}
+
+.catPrice {
+  margin-left: 50px;
+  width: 210px;
+}
+
+.catDonate {
+  width: 80px;
+}
+
+.catBreed {
+  margin-left: 40px;
+  width: 210px;
+}
+
+.catGender {
+  margin-left: 25px;
+  width: 210px;
+}
+
+.catImage {
+  position: absolute;
+  margin-left: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.catImgL {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  color: grey;
+}
+
+.catImgL input {
+  width: 300px;
+  border-radius: 0.5rem;
+}
+
+.caticons {
+  width: 330px;
+  margin-left: 60px;
+}
+
+.sellBtn {
+  align-items: center;
+  text-align: center;
+  margin-left: -300px;
+}
+
+.logout {
+  color: black;
+} */

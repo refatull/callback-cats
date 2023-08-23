@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.big-heading {
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: "Merriweather";
+  }
+  
+  .medium-heading{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Quicksand";
+  }
+
+  @media (max-width: 600px) {
+    .big-heading {
+      font-size: 2rem;
+    }
+  }
+
+  .small-heading{
+    font-size: 1.5rem;
+    font-family: "Montserrat";
+  }
+
+  .small-title{
+    color: grey;
+    font-size: 1.5rem;
+    opacity: 0.47;
+    font-weight: bold;
+    font-family: "Quicksand";
+  }
